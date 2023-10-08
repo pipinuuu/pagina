@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas: 
+    "header"
+    "navigation"
+    "content"
+    "footer";
+}
+
+.header { grid-area: header;}
+.navigation { grid-area: navigation;}
+.content { grid-area: content;}
+.footer {grid-area: footer;}
+
+@media (min-width: 768px) {
+
+    body{
+        display: grid;
+        grid-template-areas: 
+        "header     header"
+        "navigation content"
+        "footer     footer";
+        grid-template-columns: 300px 1.2fr;
+        grid-template-rows: auto 1fr auto;
+    }
+
+}

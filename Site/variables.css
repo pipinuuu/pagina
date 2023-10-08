@@ -1,0 +1,22 @@
+:root {
+    font-size: 62.5%;
+    --standart-padding: 2.0rem;
+    --standart-margin: 10px;
+
+    --title-font: 'Poppins', sans-serif;
+    --text-font: 'DM Sans', sans-serif;
+
+    --title-font-size: 3.0rem;
+    --text-font-size: 1.6rem;
+
+    --hue: 141;
+    
+    --base-color-one: hsl(var(--hue) 36% 57%);
+    --base-color-two: hsl(var(--hue) 65% 88%);
+    --base-color-three: hsl(var(--hue) 57% 53%);
+    --title-color: hsl(var(--hue) 41% 10%);
+    --text-color: hsl(0, 15%, 13%);
+    --text-color-light: hsl(0, 2%, 18%);
+    --background-color: hsl(231, 81%, 62%);
+}
+

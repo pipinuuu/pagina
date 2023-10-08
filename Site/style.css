@@ -1,0 +1,37 @@
+body {
+    font: 400 var(--text-font-size) var(--text-font);
+    color: var(--text-color);
+    background: var(---background-color);
+}
+
+.title {
+    font: 700 var(--title-font-size) var(--title-font);
+    color: var(--title-color);
+}
+
+header {
+    background-color: var(--base-color-one);
+    padding: var(--standart-padding);
+    text-align: center;
+}
+
+main {
+    padding: var(--standart-padding);
+    margin: var(--standart-margin);
+}
+
+section {
+    margin: var(--standart-margin);
+}
+
+nav {
+    background-color: var(--base-color-two);
+    padding: var(--standart-padding);
+}
+
+footer {
+    background-color: var(--base-color-one);
+    padding: var(--standart-padding);
+    color: var(--text-color-light);
+    text-align: center;
+}
